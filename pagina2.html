@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem de Agradecimento</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #FFD700;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            font-size: 2em;
+            margin: 0;
+            flex: 1; /* Adicionando flex para centralizar o título */
+        }
+        .btn-voltar-header {
+            background-color: #ff8c00;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            margin-right: 20px; /* Espaço à direita para evitar que saia da página */
+        }
+        .btn-voltar-header:hover {
+            background-color: #e07b00;
+        }
+        .content {
+            padding: 80px 20px 60px;
+            text-align: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        .content h2 {
+            font-size: 2.5em;
+            margin: 20px 0;
+            color: #ff8c00;
+        }
+        .content p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .btn-voltar {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #ff8c00;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            font-size: 1.2em;
+        }
+        .btn-voltar:hover {
+            background-color: #e07b00;
+        }
+        .anonimato {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #eaf0e8;
+            border-left: 5px solid #8dc63f;
+            border-radius: 8px;
+            font-size: 1.1em;
+            color: #333;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+        }
+        footer {
+            background-color: #FFD700;
+            color: #333;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            font-size: 0.9em;
+        }
+        footer a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        /* Estilos para a animação do botão */
+        .btn-voltar, .btn-voltar-header {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        .btn-voltar:active, .btn-voltar-header:active {
+            transform: translateY(2px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Obrigado por Compartilhar</h1>
+        <a href="pagina1.html" class="btn-voltar-header">Voltar</a>
+    </header>
+    <div class="content">
+        <h2>Mensagem Recebida</h2>
+        <p>Seu relato foi enviado com sucesso. Agradecemos por compartilhar sua experiência. Se você precisar de ajuda, não hesite em buscar apoio.</p>
+        <h3>Disque 188</h3>
+        <a href="pagina3.html" class="btn-voltar">Ver Relatos</a>
+        <div class="anonimato">
+            <p>Todos os relatos são anônimos e são divulgados com a máxima confidencialidade para garantir a privacidade dos participantes.</p>
+        </div>
+    </div>
+    <footer>
+        <p>Setembro Amarelo - Mês de Prevenção ao Suicídio. <a href="https://www.cvv.org.br/" target="_blank">Saiba mais</a>.</p>
+    </footer>
+</body>
+</html>
